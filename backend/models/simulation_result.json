@@ -1,0 +1,24 @@
+{
+  "run_id": "run_demo_001",
+  "status": "completed",
+  "scenario": {
+    "name": "North Staircase Failure",
+    "hazard": "blocked_exit"
+  },
+  "metrics": {
+    "population": 500,
+    "completed": 500,
+    "failed": 0,
+    "completion_rate": 100.0,
+    "failure_rate": 0.0,
+    "average_evacuation_time": 39.76,
+    "maximum_evacuation_time": 69.0,
+    "reroutes": 398
+  },
+  "diagnosis": {
+    "severity": "CRITICAL",
+    "primary_bottleneck": "staircase_b",
+    "recommendation_count": 5
+  },
+  "interventions_tested": 5
+}

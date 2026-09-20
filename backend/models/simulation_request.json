@@ -1,0 +1,23 @@
+{
+  "project_id": "campus-demo",
+  "environment": {
+    "type": "campus",
+    "region": "global",
+    "population_size": 500
+  },
+  "scenario": {
+    "name": "North Staircase Failure",
+    "hazard": "blocked_exit",
+    "blocked_nodes": [
+      "staircase_a"
+    ],
+    "start_time": 5
+  },
+  "interventions": [
+    {
+      "type": "flow_improvement",
+      "target": "staircase_b->exit_b",
+      "multiplier": 0.75
+    }
+  ]
+}
